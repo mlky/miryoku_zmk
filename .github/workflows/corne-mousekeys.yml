@@ -17,7 +17,7 @@ jobs:
 #        "zmkfirmware/zmk/main ftc/zmk/mouse-ftc",
         "ftc/zmk/mouse-ftc"
       ]'
-      alphas: ['qwerty']
-      nav: ['vi']
-      clipboard: ['win']
+      alphas: '["qwerty"]'
+      nav: '["vi"]'
+      clipboard: '["win"]'
       
