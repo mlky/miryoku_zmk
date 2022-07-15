@@ -2,7 +2,7 @@
 # https://github.com/manna-harbour/miryoku
 
 name: 'Build chocofi mousekeyspr'
-on: 
+on: workflow_dispatch
 jobs:
   build:
     uses: ./.github/workflows/main.yml
