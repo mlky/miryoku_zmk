@@ -1,0 +1,19 @@
+# Copyright 2022 Manna Harbour
+# https://github.com/manna-harbour/miryoku
+
+name: 'Build Chocofi'
+on: push
+jobs:
+  build:
+    uses: ./.github/workflows/main.yml
+    secrets: inherit
+    with:
+      board: '["nice_nano_v2"]'
+      shield: '["corne_left", "corne_right"]'
+      custom_config: '["#define MIRYOKU_KLUDGE_MOUSEKEYSPR"]'
+      kconfig: '["CONFIG_ZMK_MOUSE=y\nCONFIG_ZMK_SLEEP=y\nCONFIG_ZMK_IDLE_SLEEP_TIMEOUT=900000"]'
+      branches: '["ftc/zmk/mouse-ftc"]'
+      alphas: '["qwerty"]'
+      nav: '["vi"]'
+      clipboard: '["win"]'
+      
