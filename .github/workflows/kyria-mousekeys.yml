@@ -2,7 +2,7 @@
 # https://github.com/manna-harbour/miryoku
 
 name: 'Build kyria mousekeyspr'
-on: push
+on: workflow_dispatch
 jobs:
   build:
     uses: ./.github/workflows/main.yml
