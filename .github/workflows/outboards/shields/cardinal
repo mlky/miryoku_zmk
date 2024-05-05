@@ -1,0 +1,7 @@
+# Copyright 2022 Manna Harbour
+# https://github.com/manna-harbour/miryoku
+
+outboard_repository=mlky/zmk-config-cardinal
+outboard_ref=nice_view
+outboard_from=boards/shields/cardinal
+outboard_to=boards/shields/cardinal
