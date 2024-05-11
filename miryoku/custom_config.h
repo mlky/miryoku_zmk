@@ -19,3 +19,15 @@ XXX  K20  K21  K22  K23  K24  XXX                 XXX  K25  K26  K27  K28  K29  
                U_MS_D                                                 &kp DOWN  
 
 
+#define MIRYOKU_LAYER_LIST \
+MIRYOKU_X(BASE,   "Base",   sensor-bindings = < &inc_dec_kp U_MS_D U_MS_U &inc_dec_kp U_MS_D U_MS_U &inc_dec_kp U_MS_D U_MS_U &inc_dec_kp U_MS_D U_MS_U> ;) \
+MIRYOKU_X(EXTRA,  "Extra",  sensor-bindings = < &inc_dec_kp U_MS_D U_MS_U &inc_dec_kp U_MS_D U_MS_U &inc_dec_kp U_MS_D U_MS_U &inc_dec_kp U_MS_D U_MS_U> ;) \
+MIRYOKU_X(TAP,    "Tap",    ) \
+MIRYOKU_X(BUTTON, "Button", ) \
+MIRYOKU_X(NAV,    "Nav",    sensor-bindings = < &inc_dec_kp U_MS_D U_MS_U &inc_dec_kp U_MS_D U_MS_U &inc_dec_kp U_MS_D U_MS_U &inc_dec_kp U_MS_D U_MS_U> ;) \
+MIRYOKU_X(MOUSE,  "Mouse",  ) \
+MIRYOKU_X(MEDIA,  "Media",  sensor-bindings = < &inc_dec_kp U_MS_D U_MS_U &inc_dec_kp U_MS_D U_MS_U &inc_dec_kp U_MS_D U_MS_U &inc_dec_kp U_MS_D U_MS_U> ;) \
+MIRYOKU_X(NUM,    "Num",    ) \
+MIRYOKU_X(SYM,    "Sym",    ) \
+MIRYOKU_X(FUN,    "Fun",    )
+
