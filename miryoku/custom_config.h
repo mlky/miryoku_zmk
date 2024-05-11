@@ -16,6 +16,6 @@ XXX  K20  K21  K22  K23  K24  XXX                 XXX  K25  K26  K27  K28  K29  
                &kp C_MUTE  K32  K33  K34       K35  K36  K37  U_BTN1 \
                U_MS_U                                                 &kp UP \
           U_MS_L U_BTN1 U_MS_R                                     &kp LEFT  &kp SPACE  &kp RIGHT \
-               U_MS_D                                                 &kp DOWN  \
-	                   >; \
+               U_MS_D                                                 &kp DOWN  
+
 
