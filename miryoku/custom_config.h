@@ -16,18 +16,14 @@ XXX  K20  K21  K22  K23  K24  XXX                 XXX  K25  K26  K27  K28  K29  
                &kp C_MUTE  K32  K33  K34       K35  K36  K37  U_BTN1 \
                U_MS_U                                                 &kp UP \
           U_MS_L U_BTN1 U_MS_R                                     &kp LEFT  &kp SPACE  &kp RIGHT \
-               U_MS_D                                                 &kp DOWN  
+               U_MS_D                                                 &kp DOWN  \
+	                   >; \
+            sensor-bindings = < \
+                &inc_dec_kp C_VOL_UP C_VOL_DN \
+                &inc_dec_kp C_VOL_UP C_VOL_DN \
+                &inc_dec_kp PG_UP PG_DN \
+                &inc_dec_kp PG_UP PG_DN \
 
 
-#define MIRYOKU_LAYER_LIST \
-MIRYOKU_X(BASE,   "Base",   sensor-bindings = < &inc_dec_kp U_MS_D U_MS_U &inc_dec_kp U_MS_D U_MS_U &inc_dec_kp U_MS_D U_MS_U &inc_dec_kp U_MS_D U_MS_U> ;) \
-MIRYOKU_X(EXTRA,  "Extra",  sensor-bindings = < &inc_dec_kp U_MS_D U_MS_U &inc_dec_kp U_MS_D U_MS_U &inc_dec_kp U_MS_D U_MS_U &inc_dec_kp U_MS_D U_MS_U> ;) \
-MIRYOKU_X(TAP,    "Tap",    ) \
-MIRYOKU_X(BUTTON, "Button", ) \
-MIRYOKU_X(NAV,    "Nav",    sensor-bindings = < &inc_dec_kp U_MS_D U_MS_U &inc_dec_kp U_MS_D U_MS_U &inc_dec_kp U_MS_D U_MS_U &inc_dec_kp U_MS_D U_MS_U> ;) \
-MIRYOKU_X(MOUSE,  "Mouse",  ) \
-MIRYOKU_X(MEDIA,  "Media",  sensor-bindings = < &inc_dec_kp U_MS_D U_MS_U &inc_dec_kp U_MS_D U_MS_U &inc_dec_kp U_MS_D U_MS_U &inc_dec_kp U_MS_D U_MS_U> ;) \
-MIRYOKU_X(NUM,    "Num",    ) \
-MIRYOKU_X(SYM,    "Sym",    ) \
-MIRYOKU_X(FUN,    "Fun",    )
+
 
