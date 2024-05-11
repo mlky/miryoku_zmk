@@ -18,12 +18,4 @@ XXX  K20  K21  K22  K23  K24  XXX                 XXX  K25  K26  K27  K28  K29  
           U_MS_L U_BTN1 U_MS_R                                     &kp LEFT  &kp SPACE  &kp RIGHT \
                U_MS_D                                                 &kp DOWN  \
 	                   >; \
-            sensor-bindings = < \
-                &inc_dec_kp C_VOL_UP C_VOL_DN \
-                &inc_dec_kp C_VOL_UP C_VOL_DN \
-                &inc_dec_kp PG_UP PG_DN \
-                &inc_dec_kp PG_UP PG_DN \
-
-
-
 
