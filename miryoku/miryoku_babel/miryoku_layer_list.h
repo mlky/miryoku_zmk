@@ -7,11 +7,11 @@
 #if !defined (MIRYOKU_LAYER_LIST)
 
 #define MIRYOKU_LAYER_LIST \
-MIRYOKU_X(BASE,   "Base", sensor-bindings = < &inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_VOL_UP C_VOL_DN >;) \
+MIRYOKU_X(BASE,   "Base", sensor-bindings = < &scroll_up_down &scroll_up_down &inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_VOL_UP C_VOL_DN >;) \
 MIRYOKU_X(EXTRA,  "Extra", sensor-bindings = < &inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_VOL_UP C_VOL_DN >;) \
 MIRYOKU_X(TAP,    "Tap",	) \
 MIRYOKU_X(BUTTON, "Button",	) \
-MIRYOKU_X(NAV,    "Nav", sensor-bindings = < &inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_VOL_UP C_VOL_DN >;) \
+MIRYOKU_X(NAV,    "Nav", sensor-bindings = < &scroll_up_down &scroll_up_down &inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_VOL_UP C_VOL_DN >;) \
 MIRYOKU_X(MOUSE,  "Mouse",	) \
 MIRYOKU_X(MEDIA,  "Media", sensor-bindings = < &inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_VOL_UP C_VOL_DN >;) \
 MIRYOKU_X(NUM,    "Num",	) \
